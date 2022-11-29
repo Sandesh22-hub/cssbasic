@@ -1,0 +1,66 @@
+/* element selector */
+/*p {
+  color: blue;
+}
+section {
+  background: black;
+  color: white;
+}
+
+#fifth {
+  background: green;
+}
+/* class selector */
+
+/*.pg {
+  font-size: 32px;
+}
+*/
+/* Descendant (space) */
+section p {
+  color: green;
+  text-decoration: line-through;
+}
+/* Child (>) */
+section > p {
+  font-weight: bolder;
+  font-size: 30px;
+}
+/* Adjacent (+) */
+section + p {
+  background: yellow;
+}
+
+/* Sibling (~) 
+
+section ~ p {
+  background: black;
+}*/
+
+/* Attribute selector  [href] */
+[href] {
+  text-decoration: none;
+}
+[href="google"] {
+  color: blue;
+}
+
+/* Pseudo-elements Selector */
+p::first-line {
+  font-size: 16px;
+  font-weight: bolder;
+}
+p::first-letter {
+  font-size: 32px;
+}
+
+/* Pseudo class Selector */
+
+a:hover {
+  font-size: 32px;
+  color: blue;
+  background: black;
+}
+P:nth-child(odd) {
+  background: green;
+}
